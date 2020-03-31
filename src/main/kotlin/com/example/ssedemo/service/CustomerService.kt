@@ -1,7 +1,7 @@
-package com.example.websocket.service
+package com.example.ssedemo.service
 
-import com.example.websocket.repository.entity.Customer
-import com.example.websocket.repository.CustomerRepository
+import com.example.ssedemo.repository.entity.Customer
+import com.example.ssedemo.repository.CustomerRepository
 import org.springframework.context.ApplicationEventPublisher
 import org.springframework.stereotype.Service
 import java.time.LocalDateTime

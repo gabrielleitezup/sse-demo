@@ -1,7 +1,7 @@
-package com.example.websocket
+package com.example.ssedemo
 
-import com.example.websocket.repository.entity.Customer
-import com.example.websocket.service.CustomerService
+import com.example.ssedemo.repository.entity.Customer
+import com.example.ssedemo.service.CustomerService
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.ResponseStatus
@@ -14,7 +14,7 @@ class CustomerController(
 
     @PostMapping("/customer")
     @ResponseStatus(HttpStatus.CREATED)
-    fun create(): Customer{
+    fun create(): Customer {
         return customerService.create()
     }
 }

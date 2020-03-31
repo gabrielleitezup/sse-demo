@@ -1,4 +1,4 @@
-package com.example.websocket
+package com.example.ssedemo
 
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

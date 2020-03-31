@@ -1,6 +1,6 @@
-package com.example.websocket.repository
+package com.example.ssedemo.repository
 
-import com.example.websocket.repository.entity.Customer
+import com.example.ssedemo.repository.entity.Customer
 import org.springframework.data.repository.PagingAndSortingRepository
 import org.springframework.stereotype.Repository
 

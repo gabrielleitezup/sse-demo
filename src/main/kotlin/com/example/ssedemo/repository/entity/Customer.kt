@@ -1,4 +1,4 @@
-package com.example.websocket.repository.entity
+package com.example.ssedemo.repository.entity
 
 import org.hibernate.annotations.GenericGenerator
 import java.time.LocalDateTime

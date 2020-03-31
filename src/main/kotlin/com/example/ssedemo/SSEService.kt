@@ -1,6 +1,6 @@
-package com.example.websocket
+package com.example.ssedemo
 
-import com.example.websocket.repository.entity.Customer
+import com.example.ssedemo.repository.entity.Customer
 import org.springframework.context.event.EventListener
 import org.springframework.scheduling.annotation.EnableScheduling
 import org.springframework.stereotype.Service
