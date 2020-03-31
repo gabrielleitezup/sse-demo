@@ -15,7 +15,7 @@ class SSEController(
 
     @GetMapping("/notification")
     fun doNotify(): ResponseEntity<SseEmitter> {
-        val emitter =  SseEmitter()
+        val emitter =  SseEmitter(900_000L)
 
         sseService.addEmitter(emitter)
 
