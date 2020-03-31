@@ -1,4 +1,4 @@
-package com.example.ssedemo
+package com.example.ssedemo.service
 
 import com.example.ssedemo.repository.entity.Customer
 import org.springframework.context.event.EventListener

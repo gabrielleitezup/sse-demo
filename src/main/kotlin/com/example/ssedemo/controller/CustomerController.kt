@@ -1,4 +1,4 @@
-package com.example.ssedemo
+package com.example.ssedemo.controller
 
 import com.example.ssedemo.repository.entity.Customer
 import com.example.ssedemo.service.CustomerService

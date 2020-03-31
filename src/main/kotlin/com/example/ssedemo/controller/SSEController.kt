@@ -1,5 +1,6 @@
-package com.example.ssedemo
+package com.example.ssedemo.controller
 
+import com.example.ssedemo.service.SSEService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.stereotype.Controller
